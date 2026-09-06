@@ -54,4 +54,12 @@ public class TodoController {
         todoService.delete(id);
         return ResponseEntity.noContent().build();
     }
+    @GetMapping("/hola")
+    public String holaController() {
+        return "hola";
+    }
+    @GetMapping("barca")
+    public String barcaController() {
+        return "barca";
+    }
 }
