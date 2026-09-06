@@ -58,4 +58,8 @@ public class TodoController {
     public String holaController() {
         return "hola";
     }
+    @GetMapping("barca")
+    public String barcaController() {
+        return "barca";
+    }
 }
